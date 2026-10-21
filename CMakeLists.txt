@@ -13,4 +13,7 @@ add_executable(prjc_2026 cv1-files/main_files.c
         cv3-pointers/main_pointers.c
         cv3-pointers/functions.h
         cv3-pointers/functions.c
+        cv4-dynamic-alloc/main.c
+        cv4-dynamic-alloc/tools.h
+        cv4-dynamic-alloc/tools.c
 )
