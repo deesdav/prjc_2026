@@ -32,4 +32,7 @@ add_executable(prjc_2026 cv1-files/main_files.c
         procvicovani/task6/main_task6.c
         procvicovani/task6/func_task6.h
         procvicovani/task6/func_task6.c
+        procvicovani/task7/main_task7.c
+        procvicovani/task7/tools_task7.h
+        procvicovani/task7/tools_task7.c
 )
