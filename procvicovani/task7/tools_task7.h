@@ -3,7 +3,7 @@
 
 int *alloc_array(int n);
 
-void *fill_array(int *nums, int n);
+void fill_array(int *nums, int n);
 
 void print_array(int *nums, int n);
 
