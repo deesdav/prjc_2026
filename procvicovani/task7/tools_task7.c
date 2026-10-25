@@ -18,7 +18,7 @@ void fill_array(int *nums, int n) {
     }
 }
 
-void print_array(int *nums, int n) {
+void print_array_task7(int *nums, int n) {
     if (nums == NULL) {
         return;
     }

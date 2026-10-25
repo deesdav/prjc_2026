@@ -54,4 +54,29 @@ add_executable(prjc_2026 cv1-files/main_files.c
         procvicovani/task20/main_task20.c
         procvicovani/task20/tools_task20.h
         procvicovani/task20/tools_task20.c
+        procvicovani/task21/main_task21.c
+        procvicovani/task21/tools_task21.h
+        procvicovani/task21/tools_task21.c
+        procvicovani/task22/main_task22.c
+        procvicovani/task22/tools_task22.h
+        procvicovani/task22/tools_task22.c
+        procvicovani/task23/main_task23.c
+        procvicovani/task23/tools_task23.h
+        procvicovani/task23/tools_task23.c
+        procvicovani/task24/main_task24.c
+        procvicovani/task24/tools_task24.h
+        procvicovani/task24/tools_task24.c
+        procvicovani/task25/main_task25.c
+        procvicovani/task25/tools_task25.h
+        procvicovani/task25/tools_task25.c
+        procvicovani/task26/main_task26.c
+        procvicovani/task26/memory_tools_task26.h
+        procvicovani/task26/memory_tools_task26.c
+        procvicovani/task27/main_task27.c
+        procvicovani/task27/tools_task27.h
+        procvicovani/task27/tools_task27.c
+        procvicovani/task28/main_task28.c
+        procvicovani/task29/main_task29.c
+        procvicovani/task30/main_task30.c
+        procvicovani/task31/main_task31.c
 )
