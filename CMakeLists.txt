@@ -83,4 +83,12 @@ add_executable(prjc_2026 cv1-files/main_files.c
         procvicovani/task33/main_task33.c
         procvicovani/task34/main_task34.c
         procvicovani/task35/main_task35.c
+        procvicovani/task36/main_task36.c
+        procvicovani/task37/main_task37.c
+        procvicovani/task38/main_task38.c
+        procvicovani/task39/main_task39.c
+        procvicovani/task40/main_task40.c
+        procvicovani/task41/main_task41.c
+        procvicovani2/task1/main_t1.c
+        procvicovani2/task2/main_t2.c
 )
