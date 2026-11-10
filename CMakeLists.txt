@@ -102,4 +102,11 @@ add_executable(prjc_2026 cv1-files/main_files.c
         C_procvicovani/procvicovani2/task11/main_t11.c
         C_procvicovani/procvicovani2/task12/main_task12.c
         C_procvicovani/procvicovani2/task13/main_t13.c
+        C_procvicovani/procvicovani2/task14/tools_t14.h
+        C_procvicovani/procvicovani2/task14/tools_t14.c
+        C_procvicovani/procvicovani2/task14/main_t14.c
+        C_procvicovani/procvicovani2/task15/main_t15.c
+        C_procvicovani/procvicovani2/task15/sensor_t15.h
+        C_procvicovani/procvicovani2/task15/sensor_t15.c
+        C_procvicovani/procvicovani2/task16/main_t16.c
 )
