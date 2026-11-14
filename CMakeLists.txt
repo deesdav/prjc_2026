@@ -89,24 +89,24 @@ add_executable(prjc_2026 cv1-files/main_files.c
         C_procvicovani/procvicovani/task39/main_task39.c
         C_procvicovani/procvicovani/task40/main_task40.c
         C_procvicovani/procvicovani/task41/main_task41.c
-        C_procvicovani/procvicovani2/task1/main_t1.c
-        C_procvicovani/procvicovani2/task2/main_t2.c
-        C_procvicovani/procvicovani2/task3/main_t3.c
-        C_procvicovani/procvicovani2/task4/main_t4.c
-        C_procvicovani/procvicovani2/task5/main_t5.c
-        C_procvicovani/procvicovani2/task6/main_t6.c
-        C_procvicovani/procvicovani2/task7/main_t7.c
-        C_procvicovani/procvicovani2/task8/main_task8.c
-        C_procvicovani/procvicovani2/task9/main_t9.c
-        C_procvicovani/procvicovani2/task10/main_t10.c
-        C_procvicovani/procvicovani2/task11/main_t11.c
-        C_procvicovani/procvicovani2/task12/main_task12.c
-        C_procvicovani/procvicovani2/task13/main_t13.c
-        C_procvicovani/procvicovani2/task14/tools_t14.h
-        C_procvicovani/procvicovani2/task14/tools_t14.c
-        C_procvicovani/procvicovani2/task14/main_t14.c
-        C_procvicovani/procvicovani2/task15/main_t15.c
-        C_procvicovani/procvicovani2/task15/sensor_t15.h
-        C_procvicovani/procvicovani2/task15/sensor_t15.c
-        C_procvicovani/procvicovani2/task16/main_t16.c
+        C_procvicovani/procvicovani/task1/main_t1.c
+        C_procvicovani/procvicovani/task2/main_t2.c
+        C_procvicovani/procvicovani/task3/main_t3.c
+        C_procvicovani/procvicovani/task4/main_t4.c
+        C_procvicovani/procvicovani/task5/main_t5.c
+        C_procvicovani/procvicovani/task6/main_t6.c
+        C_procvicovani/procvicovani/task7/main_t7.c
+        C_procvicovani/procvicovani/task8/main_task8.c
+        C_procvicovani/procvicovani/task9/main_t9.c
+        C_procvicovani/procvicovani/task10/main_t10.c
+        C_procvicovani/procvicovani/task11/main_t11.c
+        C_procvicovani/procvicovani/task12/main_task12.c
+        C_procvicovani/procvicovani/task13/main_t13.c
+        C_procvicovani/procvicovani/task14/tools_t14.h
+        C_procvicovani/procvicovani/task14/tools_t14.c
+        C_procvicovani/procvicovani/task14/main_t14.c
+        C_procvicovani/procvicovani/task15/main_t15.c
+        C_procvicovani/procvicovani/task15/sensor_t15.h
+        C_procvicovani/procvicovani/task15/sensor_t15.c
+        C_procvicovani/procvicovani/task16/main_t16.c
 )

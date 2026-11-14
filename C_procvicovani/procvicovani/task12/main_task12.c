@@ -1,48 +1,85 @@
 // #include <stdio.h>
 // #include <stdlib.h>
 //
-// int main() {
-//     int N = 5;
-//     int *nums = (int *) malloc(N * sizeof(int));
-//     if (nums == NULL) {
-//         printf("Chyba: Nedostatek paměti!\n");
-//         return 1;
-//     }
-//
-//     nums[0] = 5;
-//     nums[1] = 12;
-//     nums[2] = 3;
-//     nums[3] = 20;
-//     nums[4] = 8;
-//
+// float *alloc_and_fill_t22(int N, int min, int max) {
+//     if (N <= 0) return NULL;
+//     float *arr = (float *) malloc(N * sizeof(float));
+//     if (arr == NULL) return NULL;
 //     for (int i = 0; i < N; i++) {
-//         printf("%d ", nums[i]);
+//         arr[i] = (float) (min + rand() % (max - min + 1));
 //     }
-//     printf("\n");
+//     return arr;
+// }
 //
-//     int *higher[5];
-//     int higher_count = 0;
-//
-//     for (int i = 0; i < N; i++) {
-//         if (nums[i] > 10) {
-//             higher[higher_count] = &nums[i];
-//             higher_count++;
+// float **find_match_t22(const float *arr1, int N1, const float *arr2, int N2, int *out_count) {
+//     if (N1 <= 0 || arr1 == NULL || N2 <= 0 || arr2 == NULL || out_count == NULL) return NULL;
+//     int count = 0;
+//     for (int i = 0; i < N1; i++) {
+//         for (int j = 0; j < N2; j++) {
+//             if (arr1[i] == arr2[j]) {
+//                 count++;
+//                 break;
+//             }
 //         }
 //     }
+//     *out_count = count;
+//     if (count == 0) return NULL;
+//     float **matches = (float **) malloc(count * sizeof(float *));
+//     if (matches == NULL) {
+//         *out_count = 0;
+//         return NULL;
+//     }
+//     int idx = 0;
+//     for (int i = 0; i < N1; i++) {
+//         for (int j = 0; j < N2; j++) {
+//             if (arr1[i] == arr2[j]) {
+//                 matches[idx++] = (float *) &arr1[i];
+//                 break;
+//             }
+//         }
+//     }
+//     return matches;
+// }
 //
-//     for (int i = 0; i < higher_count; i++) {
-//         printf("%d ", *higher[i]);
+//
+// void print_arr_t22(const char *label, const float *arr, int N) {
+//     if (N <= 0 || arr == NULL) return;
+//     printf("%s: ", label);
+//     for (int i = 0; i < N; i++) {
+//         printf("%.2f ", arr[i]);
 //     }
 //     printf("\n");
+// }
 //
-//     *higher[0] = 99;
-//     for (int i = 0; i < higher_count; i++) {
-//         printf("%d ", *higher[i]);
+// int print_refs_t22(const char *label, float **refs, int count) {
+//     if (count <= 0 || refs == NULL) return -1;
+//     printf("%s: ", label);
+//     for (int i = 0; i < count; i++) {
+//         printf("%.2f ", *refs[i]);
 //     }
 //     printf("\n");
+//     return 0;
+// }
 //
-//     free(nums);
-//     nums = NULL;
+// int main() {
+//     int n1 = 5, n2 = 7;
+//     float *arr1 = alloc_and_fill_t22(n1, 1, 5);
+//     float *arr2 = alloc_and_fill_t22(n2, 1, 5);
+//     print_arr_t22("Array 1", arr1, n1);
+//     print_arr_t22("Array 2", arr2, n2);
+//     int count = 0;
+//     float **refs = find_match_t22(arr1, n1, arr2, n2, &count);
+//     if (count > 0 && refs != NULL) {
+//         print_refs_t22("Matched array", refs, count);
+//     } else {
+//         printf("No match\n");
+//     }
+//     free(arr1);
+//     free(arr2);
+//     free(refs);
+//     arr1 = NULL;
+//     arr2 = NULL;
+//     refs = NULL;
 //
 //     return 0;
 // }
