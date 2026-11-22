@@ -3,7 +3,8 @@ project(prjc_2026)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(practice/Animal.h
-        practice/Animal.cpp
+add_executable(prjc_2026
         practice/main.cpp
+        practice/Vehicle.cpp
+        practice/Vehicle.h
 )
