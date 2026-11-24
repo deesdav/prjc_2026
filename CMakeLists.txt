@@ -20,4 +20,9 @@ add_executable(prjc_2026 cv1-files/main_files.c
         cv8-CPlusPlus/Vektor.h
         cv8-CPlusPlus/main.cpp
         cv8-CPlusPlus/Vektor.cpp
+        cv9-Polymorfismus/Zvire.cpp
+        cv9-Polymorfismus/Zvire.h
+        cv9-Polymorfismus/main.cpp
+        cv9-Polymorfismus/Box.cpp
+        cv9-Polymorfismus/Box.h
 )
